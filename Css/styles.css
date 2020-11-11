@@ -346,7 +346,7 @@ section{
   align-items: center;
   padding: 100px;
   box-sizing: border-box;
-  background-color: #7C7C7C;
+  /* background-color: #7C7C7C; */
   margin-top: -45px;
   background-blend-mode: screen;
 }
@@ -681,168 +681,7 @@ width: 100%;
 z-index: 2;
 }
 
-/* line 11, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_menu.scss */
-.main_menu .navbar-brand {
-padding: 0rem !important;
-font-family: 'Josefin Sans', sans-serif !important;
 
-}
-
-@media (max-width: 576px) {
-/* line 11, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_menu.scss */
-.main_menu .navbar-brand {
-  max-width: 120px;
-  font-family: 'Josefin Sans', sans-serif !important;
-}
-}
-
-@media only screen and (min-width: 576px) and (max-width: 767px) {
-/* line 11, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_menu.scss */
-.main_menu .navbar-brand {
-  max-width: 130px;
-  font-family: 'Josefin Sans', sans-serif !important;
-}
-}
-
-/* line 23, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_menu.scss */
-.main_menu .navbar-toggler {
-position: relative;
-z-index: 1;
-
-font-family: 'Josefin Sans', sans-serif !important;
-}
-
-/* line 27, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_menu.scss */
-.main_menu .navbar-toggler:after {
-position: absolute;
-content: "";
-width: 100%;
-height: 100%;
-top: 0;
-left: 0;
-z-index: -1;
-background-size: 200% auto;
-font-family: 'Josefin Sans', sans-serif !important;
-}
-
-/* line 40, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_menu.scss */
-.main_menu .navbar {
-padding: 0;
-font-family: 'Josefin Sans', sans-serif !important;
-}
-
-@media (max-width: 576px) {
-/* line 40, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_menu.scss */
-.main_menu .navbar {
-  padding: 15px 0;
-}
-}
-
-@media only screen and (min-width: 576px) and (max-width: 767px) {
-/* line 40, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_menu.scss */
-.main_menu .navbar {
-  padding: 15px 0;
-  font-family: 'Josefin Sans', sans-serif;
-}
-}
-
-/* line 52, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_menu.scss */
-.main_menu .main-menu-item {
-text-align: right;
-justify-content: right;
-font-family: 'Josefin Sans', sans-serif;
-}
-
-@media only screen and (min-width: 992px) and (max-width: 1200px) {
-/* line 52, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_menu.scss */
-.main_menu .main-menu-item {
-  padding-left: 25px;
-  font-family: 'Josefin Sans', sans-serif;
-}
-}
-
-/* line 61, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_menu.scss */
-.main_menu .main-menu-item ul li .nav-link {
-color: #fff;
-font-size: 16px;
-padding: 40px 25px;
-font-family: 'Josefin Sans', sans-serif;
-line-height: 13px;
-text-transform: capitalize;
-font-weight: 500;
-border-top: 2px solid transparent;
-}
-
-@media only screen and (min-width: 992px) and (max-width: 1200px) {
-/* line 61, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_menu.scss */
-.main_menu .main-menu-item ul li .nav-link {
-  padding: 35px 16px;
-}
-}
-
-/* line 74, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_menu.scss */
-.main_menu .main-menu-item ul li .nav-link:hover {
-border-top: 2px solid #fff;
-color: #fff;
-}
-
-/* line 84, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_menu.scss */
-.main_menu .btn_2 {
-padding: 10.5px 39px;
-margin-left: 55px;
-color: #fff;
-background-color: transparent;
-border: 1px solid #fff;
-}
-
-/* line 90, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_menu.scss */
-.main_menu .btn_2:hover {
-border: 1px solid transparent;
-}
-
-/* line 97, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_menu.scss */
-.dropdown-menu {
-border: 0px solid rgba(0, 0, 0, 0.15) !important;
-background-color: #fafafa;
-}
-
-/* line 103, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_menu.scss */
-.dropdown .dropdown-menu {
-transition: all 0.5s;
-overflow: hidden;
-transform-origin: top center;
-transform: scale(1, 0);
-display: block;
-margin-top: -1px;
-}
-
-/* line 110, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_menu.scss */
-.dropdown .dropdown-menu .dropdown-item {
-font-size: 14px;
-padding: 9px 18px !important;
-color: #000 !important;
-text-transform: capitalize;
-}
-
-/* line 115, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_menu.scss */
-.dropdown .dropdown-menu .dropdown-item:hover {
-color: #8d00ff !important;
-}
-
-/* line 122, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_menu.scss */
-.dropdown:hover .dropdown-menu {
-transform: scale(1);
-}
-
-@media (max-width: 991px) {
-/* line 132, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_menu.scss */
-.single_page_menu .navbar-collapse ul li .nav-link {
-  color: #000 !important;
-}
-/* line 140, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_menu.scss */
-.main_menu .navbar {
-  padding: 15px 0;
-  
 
 }
 /* line 144, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_menu.scss */
@@ -865,80 +704,6 @@ transform: scale(1);
   background-color: #fff;
   text-align: center !important;
   box-shadow: 0px 11px 9px -5px rgba(0, 0, 0, 0.2);
-}
-/* line 164, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_menu.scss */
-.main_menu .main-menu-item {
-  text-align: left !important;
-}
-/* line 167, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_menu.scss */
-.main_menu .main-menu-item .nav-item {
-  padding: 5px 15px !important;
-}
-/* line 170, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_menu.scss */
-.main_menu .main-menu-item .nav-item a {
-  padding: 10px 15px !important;
-  color: #000 !important;
-}
-/* line 177, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_menu.scss */
-.navbar-nav {
-  align-items: start !important;
-  padding: 10px 0;
-}
-/* line 183, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_menu.scss */
-.dropdown .dropdown-menu {
-  transform: scale(1, 0);
-  display: none;
-  margin-top: 10px;
-}
-/* line 190, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_menu.scss */
-.dropdown:hover .dropdown-menu {
-  transform: scale(1);
-  display: block;
-  color: #8d00ff;
-}
-/* line 197, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_menu.scss */
-.dropdown .dropdown-item:hover {
-  color: #8d00ff !important;
-}
-}
-
-/* line 316, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_menu.scss */
-.single_page_menu .main-menu-item ul li .nav-link {
-color: #fff;
-font-size: 15px;
-padding: 0px 24px;
-font-family: "Roboto", sans-serif;
-}
-
-@media only screen and (min-width: 992px) and (max-width: 1200px) {
-/* line 316, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_menu.scss */
-.single_page_menu .main-menu-item ul li .nav-link {
-  padding: 0px 16px;
-}
-}
-
-/* line 332, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_menu.scss */
-.menu_fixed {
-position: fixed;
-z-index: 9999 !important;
-width: 100%;
-background-color: #8d00ff;
-top: 0;
-}
-
-/* line 339, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_menu.scss */
-.menu_fixed .logo_2 {
-display: inherit;
-}
-
-/* line 343, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_menu.scss */
-.menu_fixed .logo_1 {
-display: none;
-}
-
-/* line 349, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_menu.scss */
-.menu_fixed .main-menu-item ul li .nav-link {
-color: #fff;
 }
 
 /**************** banner part css start ****************/
@@ -1152,7 +917,7 @@ transition: all 0.4s ease;
 }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:996px) {
 .navTrigger {
     display: block;
 }
@@ -1631,7 +1396,7 @@ nav a
 .underline {
   background-image: linear-gradient(to right, rgba(37, 87, 189, 0.8) 0%, rgba(9, 216, 248, 0.8) 100%);
   background-position: bottom center; /*Adjust the background-position to move the line*/
-  background-size: 7% 2px; /*Adjust the background size to control length and height*/
+  background-size: 10% 3px; /*Adjust the background size to control length and height*/
   background-repeat: no-repeat;
   padding-bottom: 24px; /* this can also control the position */
   margin-top: -70px;
@@ -1964,3 +1729,49 @@ margin-bottom: 8px;
   font-family: 'Josefin Sans', sans-serif;
   font-size: 15px;
 }
+
+/* Menu items */
+.item-container{
+  position: relative;
+  /* for the link */
+  overflow: hidden;
+  background: linear-gradient(rgb(0,0,0),rgb(0,0,0));
+  transition: all 2s ease;
+  text-align: center;
+  z-index: 1;  
+}
+.item-img{
+  transition: all 2s ease;
+}
+
+.item-container:hover .item-img{
+  transform: scale(1.2);
+  opacity: 0.5;
+}
+.item-link {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #004e92;
+  font-size: 2rem;
+  border-top: 3px solid #004e92;
+  border-bottom: 3px solid #004e92;
+  transition: all 2s ease;
+  /* opacity: 0; */
+}
+
+.item-container:hover .item-link{
+  opacity: 1;
+}
+.item-link:hover{
+  color: #9c9c9c;
+  border: 3px solid #999999;
+  background: #c9c9c9;
+  color: #242424;
+}
+.item-container:hover{
+  outline: 10px solid #004e92;
+  outline-offset: 0.8rem;
+}
+/* menu item end */
