@@ -1,3 +1,18 @@
+// magnific pop up
+$(document).ready(function (){
+  $('.parent-container').magnificPopup({
+    delegate: 'a', // child items selector, by clicking on it popup will open
+    type: 'image',
+  
+    gallery:{
+      enabled:true
+    }
+    // other options
+  });
+  
+});
+
+
 $(window).scroll(function() {
   if ($(this).scrollTop() > 100) {
     $('.back-to-top').fadeIn('slow');
@@ -29,49 +44,6 @@ $(function () {
 
 
 
-
-
-// set up text to print, each item in array is new line
-var aText = new Array(
-    "We do UX Design,Mobile",
-        "And Web UI and ",
-    "Software Development."
-    // "There are only 10 types of people in the world:", 
-    // "Those who understand binary, and those who don't"
-    );
-    var iSpeed = 100; // time delay of print out
-    var iIndex = 0; // start printing array at this posision
-    var iArrLength = aText[0].length; // the length of the text array
-    var iScrollAt = 10; // start scrolling up at this many lines
-     
-    var iTextPos = 0; // initialise text position
-    var sContents = ''; // initialise contents variable
-    var iRow; // initialise current row
-     
-    function typewriter()
-    {
-     sContents =  ' ';
-     iRow = Math.max(0, iIndex-iScrollAt);
-     var destination = document.getElementById("typedtext");
-     
-     while ( iRow < iIndex ) {
-      sContents += aText[iRow++] + '<br />';
-     }
-     destination.innerHTML = sContents + aText[iIndex].substring(0, iTextPos) + "_";
-     if ( iTextPos++ == iArrLength ) {
-      iTextPos = 0;
-      iIndex++;
-      if ( iIndex != aText.length ) {
-       iArrLength = aText[iIndex].length;
-       setTimeout("typewriter()", 500);
-      }
-     } else {
-      setTimeout("typewriter()", iSpeed);
-     }
-    }
-    
-    
-    typewriter();
 
     $(document).ready(function(){
       "use strict";
@@ -210,4 +182,7 @@ var aText = new Array(
     $(window).on('load', function() {
       aos_init();
     });
+
+    
+    
   
